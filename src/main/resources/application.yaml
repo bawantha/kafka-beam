@@ -1,0 +1,8 @@
+spring:
+  kafka:
+    bootstrap-servers: pkc-12576z.us-west2.gcp.confluent.cloud:9092
+
+kafka:
+  input-topic: Customer
+  output-topic-even: CustomerEVEN
+  output-topic-odd: CustomerODD
