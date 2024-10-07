@@ -108,7 +108,7 @@ public class BeamPipelineConfig {
         public int partitionFor(KV<String, String> element, int numPartitions) {
             assert element != null;
             String topicKey = element.getKey();
-            return "EvenAgeTopic".equals(topicKey) ? 0 : 1; // Send to respective partition
+            return "CustomerEVEN".equals(topicKey) ? 0 : 1; // Send to respective partition
         }
     }
 }
