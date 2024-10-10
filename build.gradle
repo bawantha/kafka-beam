@@ -49,8 +49,5 @@ dependencies {
 	// Testing Dependencies
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.apache.beam:beam-sdks-java-test-utils:2.59.0'
-}
-
-test {
-	useJUnitPlatform()
+	testImplementation 'junit:junit:4.13.2'
 }

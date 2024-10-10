@@ -6,3 +6,5 @@ kafka:
   input-topic: Customer
   output-topic-even: CustomerEVEN
   output-topic-odd: CustomerODD
+  api-key: ${CONFLUENT_API_KEY}
+  secret-key: ${CONFLUENT_API_SECRET}
