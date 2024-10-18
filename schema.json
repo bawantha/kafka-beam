@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "A JSON schema for the Customer object.",
+  "properties": {
+    "dateOfBirth": {
+      "description": "The customer's date of birth in ISO 8601 format (YYYY-MM-DD).",
+      "format": "date",
+      "type": "string"
+    },
+    "firstName": {
+      "description": "The customer's first name.",
+      "type": "string"
+    },
+    "lastName": {
+      "description": "The customer's last name.",
+      "type": "string"
+    }
+  },
+  "required": [
+    "firstName",
+    "lastName",
+    "dateOfBirth"
+  ],
+  "title": "Customer",
+  "type": "object"
+}
